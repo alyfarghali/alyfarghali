@@ -1,0 +1,104 @@
+<!-- Header -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0f2027,50:203a43,100:2c5364&text=Aly%20Farghali&fontColor=ffffff&fontSize=56&fontAlignY=36&desc=Computer%20Engineering%20%40%20Georgia%20Tech&descAlignY=58&descSize=18&animation=fadeIn" alt="Aly Farghali" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/alyfarghali">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=900&color=4FD1C5&center=true&vCenter=true&width=620&lines=Backend+%26+full-stack+engineer;FastAPI+%C2%B7+React+%C2%B7+TypeScript+%C2%B7+SQL;From+computer+vision+pipelines+to+REST+APIs;Currently+building+an+IoT+telemetry+system" alt="Typing intro" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://linkedin.com/in/aly-farghali"><img src="https://img.shields.io/badge/LinkedIn-aly--farghali-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <img src="https://img.shields.io/badge/Georgia_Tech-Computer_Engineering-B3A369?style=for-the-badge" alt="Georgia Tech" />
+  <img src="https://img.shields.io/badge/Atlanta,_GA-2c5364?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Atlanta" />
+</p>
+
+---
+
+## 👋 About me
+
+I'm a Computer Engineering student at **Georgia Tech** focused on **backend and full-stack development**. I like building the layer where data, APIs and real hardware meet.
+
+- 🧵 **Recently:** built **ReWeave**, a computer vision marketplace for fabric waste, with a four-person hackathon team
+- 🖥️ **On campus:** support researchers on Georgia Tech's **Phoenix HPC cluster** at PACE, including Slurm job troubleshooting
+- 📡 **Now building:** an IoT telemetry system, from device to database
+- 🎯 **Looking for:** backend and full-stack software engineering internships
+
+---
+
+## 🚀 Featured projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧵 <a href="https://github.com/alyfarghali/reweave">ReWeave</a></h3>
+      <p>A B2B marketplace that turns a photo of factory fabric scraps into sorted, priced inventory.</p>
+      <ul>
+        <li>Multi-stage CV pipeline: ArUco scale detection, SAM segmentation, color and pattern analysis, vision-LLM material classification</li>
+        <li>Weight estimation, bin sorting and a pricing model with time-based decay</li>
+        <li>FastAPI backend split into domain modules, JWT auth, pytest suite</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" />
+      </p>
+      <sub>Team hackathon project · <a href="https://github.com/Rishab-Mal/HackATL">original team repo</a></sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>💸 <a href="https://github.com/alyfarghali/budget-tracker">Budget Tracker</a></h3>
+      <p>A full-stack personal finance app for accounts, transactions, credit utilization and spending insights.</p>
+      <ul>
+        <li>REST API with FastAPI, SQLAlchemy models and SQLite</li>
+        <li>React + TypeScript dashboard with Recharts</li>
+        <li>Claude-powered spending coach and purchase evaluator; Excel and CSV export for Power BI</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+      </p>
+      <sub>Solo project</sub>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>⚡ <a href="https://github.com/alyfarghali/parallel-image-processor">Parallel Image Processor</a></h3>
+      <p>Python multiprocessing image filters that benchmark strip-based against multi-image parallelism, and show when parallel code is slower than sequential.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+        <img src="https://img.shields.io/badge/Pillow-11557C?style=flat-square" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🛠️ Tech stack
+
+<p align="center"><b>Backend & data</b></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,fastapi,postgres,sqlite,opencv,linux,bash&theme=dark" alt="Backend skills" />
+</p>
+
+<p align="center"><b>Frontend</b></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,ts,js,tailwind,vite&theme=dark" alt="Frontend skills" />
+</p>
+
+<p align="center"><b>Hardware & tools</b></p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=arduino,git,github,vscode&theme=dark" alt="Hardware and tools" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=110&color=0:2c5364,50:203a43,100:0f2027&section=footer" alt="" />
+</p>
