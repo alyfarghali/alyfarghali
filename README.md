@@ -21,8 +21,8 @@
 
 I'm a Computer Engineering student at **Georgia Tech** focused on **backend and full-stack development**. I like building the layer where data, APIs and real hardware meet.
 
-- 🧵 **Recently:** built **ReWeave**, a computer vision marketplace for fabric waste, with a four-person hackathon team
-- 🖥️ **On campus:** support researchers on Georgia Tech's **Phoenix HPC cluster** at PACE, including Slurm job troubleshooting
+- 🧵 **Recently:** built **ReWeave**, a computer vision marketplace for fabric waste
+- 💼 **Experience:** software engineer at **Caterpillar**
 - 📡 **Now building:** an IoT telemetry system, from device to database
 - 🎯 **Looking for:** backend and full-stack software engineering internships
 
@@ -46,7 +46,6 @@ I'm a Computer Engineering student at **Georgia Tech** focused on **backend and 
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
         <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" />
       </p>
-      <sub>Team hackathon project · <a href="https://github.com/Rishab-Mal/HackATL">original team repo</a></sub>
     </td>
     <td width="50%" valign="top">
       <h3>💸 <a href="https://github.com/alyfarghali/budget-tracker">Budget Tracker</a></h3>
