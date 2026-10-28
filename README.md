@@ -24,7 +24,7 @@ I'm a Computer Engineering student at **Georgia Tech** focused on **backend and 
 
 - 💼 **Now:** Software Engineering Intern at **Caterpillar (Solar Turbines)**: ops dashboards, an email-classification ML pipeline, and a PDM data migration
 - 📊 **Also:** Data Analyst and Dashboard Team Lead at Georgia Tech's **Center for Academic Success**, and platform engineer for **[ByteFight](https://www.alyfarghali.com/#experience)**, a bot tournament platform used in CS 6601 and CS 3600
-- 📡 **Building:** **[SpinCycle](https://www.alyfarghali.com/work/spincycle)**, live laundry availability from ESP32 sensors over MQTT, with a Go ingest service and TimescaleDB
+- 📡 **Building:** **[SpinCycle](https://github.com/alyfarghali/spincycle)**, live laundry availability from ESP32 sensors over MQTT, with a Go ingest service and TimescaleDB
 - 🧵 **Recently:** built **ReWeave**, a computer vision marketplace for fabric waste ([live demo](https://reweave.alyfarghali.com))
 - 🎯 **Looking for:** backend and full-stack software engineering internships
 
@@ -35,6 +35,26 @@ More on my site: **[alyfarghali.com](https://www.alyfarghali.com)**
 ## 🚀 Featured projects
 
 <table>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>📡 <a href="https://github.com/alyfarghali/spincycle">SpinCycle</a> <sub>in progress</sub></h3>
+      <p>Live washer and dryer availability for campus laundry rooms. A vibration sensor on each machine reports over MQTT; the backend works out which machines are free, running or finished, and emails you when your load is done. <a href="https://www.alyfarghali.com/work/spincycle"><b>Read the case study</b></a>.</p>
+      <p><code>ESP32-C6</code> → <code>Mosquitto (MQTT/TLS)</code> → <code>Go ingest</code> → <code>TimescaleDB + Redis</code> → <code>FastAPI</code> → <code>React</code></p>
+      <ul>
+        <li>I own the MQTT broker (per-device credentials and ACLs), the Go ingest service, storage and the API; Twyla builds the hardware and firmware</li>
+        <li>Readings are acked to the broker only after they're committed: in a <code>kill -9</code> crash test, all 3,000 readings were stored exactly once</li>
+        <li>A state engine turns vibration into free / running / finished / offline, and never jumps from offline to free</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+        <img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white" />
+        <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" />
+        <img src="https://img.shields.io/badge/TimescaleDB-FDB515?style=flat-square&logo=timescale&logoColor=black" />
+        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+      </p>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h3>🧵 <a href="https://github.com/alyfarghali/reweave">ReWeave</a></h3>
