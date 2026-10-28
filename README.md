@@ -10,6 +10,7 @@
 </p>
 
 <p align="center">
+  <a href="https://www.alyfarghali.com"><img src="https://img.shields.io/badge/Website-alyfarghali.com-16201B?style=for-the-badge&logo=googlechrome&logoColor=E3B100" alt="Website" /></a>
   <a href="https://linkedin.com/in/aly-farghali"><img src="https://img.shields.io/badge/LinkedIn-aly--farghali-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <img src="https://img.shields.io/badge/Georgia_Tech-Computer_Engineering-B3A369?style=for-the-badge" alt="Georgia Tech" />
   <img src="https://img.shields.io/badge/Atlanta,_GA-2c5364?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Atlanta" />
@@ -21,10 +22,13 @@
 
 I'm a Computer Engineering student at **Georgia Tech** focused on **backend and full-stack development**. I like building the layer where data, APIs and real hardware meet.
 
-- 🧵 **Recently:** built **ReWeave**, a computer vision marketplace for fabric waste
-- 💼 **Experience:** software engineer at **Caterpillar**
-- 📡 **Now building:** an IoT telemetry system, from device to database
+- 💼 **Now:** Software Engineering Intern at **Caterpillar (Solar Turbines)**: ops dashboards, an email-classification ML pipeline, and a PDM data migration
+- 📊 **Also:** Data Analyst and Dashboard Team Lead at Georgia Tech's **Center for Academic Success**, and platform engineer for **[ByteFight](https://www.alyfarghali.com/#experience)**, a bot tournament platform used in CS 6601 and CS 3600
+- 📡 **Building:** **[SpinCycle](https://www.alyfarghali.com/work/spincycle)**, live laundry availability from ESP32 sensors over MQTT, with a Go ingest service and TimescaleDB
+- 🧵 **Recently:** built **ReWeave**, a computer vision marketplace for fabric waste ([live demo](https://reweave.alyfarghali.com))
 - 🎯 **Looking for:** backend and full-stack software engineering internships
+
+More on my site: **[alyfarghali.com](https://www.alyfarghali.com)**
 
 ---
 
@@ -34,7 +38,7 @@ I'm a Computer Engineering student at **Georgia Tech** focused on **backend and 
   <tr>
     <td width="50%" valign="top">
       <h3>🧵 <a href="https://github.com/alyfarghali/reweave">ReWeave</a></h3>
-      <p>A B2B marketplace that turns a photo of factory fabric scraps into sorted, priced inventory.</p>
+      <p>A B2B marketplace that turns a photo of factory fabric scraps into sorted, priced inventory. <a href="https://reweave.alyfarghali.com"><b>Try the live demo</b></a>.</p>
       <ul>
         <li>Multi-stage CV pipeline: ArUco scale detection, SAM segmentation, color and pattern analysis, vision-LLM material classification</li>
         <li>Weight estimation, bin sorting and a pricing model with time-based decay</li>
@@ -83,7 +87,7 @@ I'm a Computer Engineering student at **Georgia Tech** focused on **backend and 
 
 <p align="center"><b>Backend & data</b></p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,fastapi,postgres,sqlite,opencv,linux,bash&theme=dark" alt="Backend skills" />
+  <img src="https://skillicons.dev/icons?i=py,go,fastapi,flask,postgres,redis,sqlite,opencv,aws,docker,linux,bash&theme=dark" alt="Backend skills" />
 </p>
 
 <p align="center"><b>Frontend</b></p>
