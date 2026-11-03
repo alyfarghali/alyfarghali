@@ -38,7 +38,7 @@ More on my site: **[alyfarghali.com](https://www.alyfarghali.com)**
   <tr>
     <td colspan="2" valign="top">
       <h3>📡 <a href="https://github.com/alyfarghali/spincycle">SpinCycle</a> <sub>in progress</sub></h3>
-      <p>Live washer and dryer availability for campus laundry rooms. A vibration sensor on each machine reports over MQTT; the backend works out which machines are free, running or finished, and emails you when your load is done. <a href="https://www.alyfarghali.com/work/spincycle"><b>Read the case study</b></a>.</p>
+      <p>Live washer and dryer availability for campus laundry rooms. A vibration sensor on each machine reports over MQTT; the backend works out which machines are free, running or finished, and emails you when your load is done. <a href="https://www.alyfarghali.com/projects/spincycle"><b>Read the case study</b></a>.</p>
       <p><code>ESP32-C6</code> → <code>Mosquitto (MQTT/TLS)</code> → <code>Go ingest</code> → <code>TimescaleDB + Redis</code> → <code>FastAPI</code> → <code>React</code></p>
       <ul>
         <li>I own the MQTT broker (per-device credentials and ACLs), the Go ingest service, storage and the API; Twyla builds the hardware and firmware</li>
