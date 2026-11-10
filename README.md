@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://github.com/alyfarghali">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=900&color=4FD1C5&center=true&vCenter=true&width=620&lines=Backend+%26+full-stack+engineer;FastAPI+%C2%B7+React+%C2%B7+TypeScript+%C2%B7+SQL;From+computer+vision+pipelines+to+REST+APIs;Currently+building+an+IoT+telemetry+system" alt="Typing intro" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=3000&pause=900&color=4FD1C5&center=true&vCenter=true&width=620&lines=Backend+%26+full-stack+engineer;FastAPI+%C2%B7+React+%C2%B7+TypeScript+%C2%B7+SQL;From+computer+vision+pipelines+to+REST+APIs;Building+an+IoT+telemetry+system;Studying+how+harnesses+shape+AI+coding+agents" alt="Typing intro" />
   </a>
 </p>
 
@@ -25,6 +25,7 @@ I'm a Computer Engineering student at **Georgia Tech** focused on **backend and 
 - 💼 **Now:** Software Engineering Intern at **Caterpillar (Solar Turbines)**: ops dashboards, an email-classification ML pipeline, and a PDM data migration
 - 📊 **Also:** Data Analyst and Dashboard Team Lead at Georgia Tech's **Center for Academic Success**, and platform engineer for **[ByteFight](https://www.alyfarghali.com/#experience)**, a bot tournament platform used in CS 6601 and CS 3600
 - 📡 **Building:** **[SpinCycle](https://github.com/alyfarghali/spincycle)**, live laundry availability from ESP32 sensors over MQTT, with a Go ingest service and TimescaleDB
+- 🤖 **Researching:** **[Tiny Debug Bench](https://github.com/alyfarghali/tiny-debug-bench)**, a benchmark that tests whether AI agents can fix bugs in a language they have never seen, and whether their fixes are real or only pass the tests
 - 🧵 **Recently:** built **ReWeave**, a computer vision marketplace for fabric waste ([live demo](https://reweave.alyfarghali.com))
 - 🎯 **Looking for:** backend and full-stack software engineering internships
 
@@ -52,6 +53,25 @@ More on my site: **[alyfarghali.com](https://www.alyfarghali.com)**
         <img src="https://img.shields.io/badge/TimescaleDB-FDB515?style=flat-square&logo=timescale&logoColor=black" />
         <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>🤖 <a href="https://github.com/alyfarghali/tiny-debug-bench">Tiny Debug Bench</a> <sub>in progress</sub></h3>
+      <p>Can an AI coding agent fix bugs in a programming language it has never seen, and does the harness around the model decide whether its fixes are real? I invented a language, <i>Tiny</i>, so no model can have memorized it, planted bugs in its interpreter, and built a scorer that separates a <b>true fix</b> from a <b>fake fix</b> that only passes the tests the agent can see.</p>
+      <p><code>buggy interpreter</code> → <code>agent + tools (sandboxed copy)</code> → <code>visible tests</code> + <code>291 hidden tests</code> + <code>differential fuzzer</code> → <code>true fix / fake fix / not fixed</code></p>
+      <ul>
+        <li>Tiny: a spec, a lexer → parser → optimizer → evaluator in about 300 lines of standard-library Python, and 307 tests</li>
+        <li>8 planted single-change bugs; every one is caught by the hidden tests and by the fuzzer, which compares 2,000 random programs against the correct interpreter in isolated processes</li>
+        <li>The scorer is tested too: a mutation check plants 15 small mistakes in the interpreter, and scoring catches all 15</li>
+        <li>Next: the agent loop and experiments comparing harness setups: one shot vs. multi-turn with test feedback, with and without the spec. No results yet</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" />
+        <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" />
+        <img src="https://img.shields.io/badge/AI_agents-111111?style=flat-square" />
       </p>
     </td>
   </tr>
